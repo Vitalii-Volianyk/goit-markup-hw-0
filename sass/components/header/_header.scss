@@ -1,0 +1,11 @@
+.header {
+	font-weight: 500;
+	line-height: calc(16.41 / 14);
+	letter-spacing: calc(14px * 0.02);
+	border-bottom: 1px solid #ececec;
+	--contact-color:$contact-color;
+}
+@import "container";
+@import "contacts";
+@import "logo";
+@import "navigation";

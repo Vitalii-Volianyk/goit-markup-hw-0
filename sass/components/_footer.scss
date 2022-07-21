@@ -1,0 +1,40 @@
+.footer{
+	background-color: $bg-color;
+	padding: 60px 0;
+	--contact-color: rgba(255, 255, 255, 0.6);
+	--light-font: #ffffff;
+}
+.footer__collumn{
+	margin-right: 70px;
+}
+
+
+.footer__logo{
+	padding: 0;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.footer__contacts{
+	display: inline;
+	margin: 0;
+}
+.footer__contacts .contacts__item{
+	line-height: (21/14);
+	margin: 0;
+}
+.footer__contacts .contacts__item:nth-child(2){
+	margin: 9px 0;
+}
+.footer__subtitle, .subscribe__title{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: $light-font;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+@import "social";
+@import "subscribe";
+
