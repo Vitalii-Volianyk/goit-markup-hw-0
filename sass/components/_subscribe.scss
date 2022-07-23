@@ -1,6 +1,6 @@
 .subscribe {
 	margin-top: 14px;
-	@include flex();
+	@include flex(0, center);
 	flex-wrap: wrap;
 }
 

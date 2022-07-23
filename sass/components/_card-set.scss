@@ -1,8 +1,8 @@
 .card-set{
 	@extend %list;
-	@include flex();
+	// @include flex();
 	margin: -15px;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
 	--light-font: #afb1b8;
 }
 .card-set__item{
@@ -16,7 +16,7 @@
     }
 }
 .card-set__item--fixed-width{
-    width: calc(100% / 4 - 30px);
+    // width: calc(100% / 4 - 30px);
 }
 .card-set__icon{
 	background-color: $lightness-back;

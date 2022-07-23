@@ -1,12 +1,14 @@
 .image-set {
 	@extend %list;
 	@include flex();
+	flex-wrap: wrap;
 	margin: 0 -15px;
 }
 
 .image-set__item {
 	margin: 15px;
 	position: relative;
+	flex-basis: calc(50% - 30px);
 }
 
 .image-set__title {
@@ -31,7 +33,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 170px;
+	// width: 170px;
 	height: 92px;
 	transition: border 250ms $time-func, color 250ms $time-func;
 
