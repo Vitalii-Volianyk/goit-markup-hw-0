@@ -1,15 +1,19 @@
 .contacts{
 	@extend %list;
-	// @include flex(center);
 	margin: 0 -25px;
+	@media (min-width:1200px){
+		@include flex(center);
+	}
 }
 .contacts__link{
-	// @include flex(center);
 	@extend %link;
 	color: $contact-color;
 	transition: color 250ms $time-func;
 	&:hover, &:active, &:focus {
 		color: $accent-color;
+	}
+	@media (min-width:1200px){
+		@include flex(center);
 	}
 }
 .contacts__icon{

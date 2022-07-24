@@ -1,9 +1,22 @@
-.header__container/*, .footer__container*/{
+.header__container{
 	@include flex(center, space-between);
 }
+.footer__container{
+	@media (min-width:1200px){
+		@include flex(center);
+	}
+}
 .container{
-	min-width: 320px;
-	max-width: 480px;
 	margin: 0 auto;
 	padding: 0 15px;
+	@media (max-width:767px) {
+		min-width: 320px;
+		max-width: 480px;
+	}
+	@media (max-width:1199px) {
+		width: 768px;
+	}
+	@media (min-width:1200px) {
+		width: 1200px;
+	}
 }

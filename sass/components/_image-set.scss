@@ -8,7 +8,15 @@
 .image-set__item {
 	margin: 15px;
 	position: relative;
-	flex-basis: calc(50% - 30px);
+	@media (max-width:767px) {
+			@include col-width(2);
+	}
+	@media (min-width:768px) {
+		@include col-width(3);
+	}
+	@media (min-width:1200px) {
+		@include col-width(6);
+	}
 }
 
 .image-set__title {
@@ -33,7 +41,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	// width: 170px;
+	@media (min-width:1200px){
+		width: 170px;
+	}
 	height: 92px;
 	transition: border 250ms $time-func, color 250ms $time-func;
 

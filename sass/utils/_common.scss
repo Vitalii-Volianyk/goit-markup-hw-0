@@ -82,3 +82,6 @@ svg {
 .section--bg-light{
 	background-color: $lightness-back;
 }
+@mixin col-width($column){
+	width: #{'calc((100% - #{$column}*30px)/#{$column})'};
+}

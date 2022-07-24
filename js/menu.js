@@ -8,7 +8,7 @@
 
   function toggleMenu() {
     refs.togglerMenu.classList.toggle("is-open");
-    refs.Menu.classList.toggle("visually-hidden");
+    refs.Menu.classList.toggle("is-closed");
     document.body.classList.toggle("off_overflow");
   }
 })();
