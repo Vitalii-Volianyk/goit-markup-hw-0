@@ -8,8 +8,7 @@
 		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-			rel="preload"
-			as="style"
+			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="./css/main.min.css" />
 	</head>
@@ -74,12 +73,41 @@
 						<li class="card-set__item card-set__item--shadow">
 							<a class="card-set__link" href="">
 								<div class="card-set__description">
-									<img
-										src="./images/portfolio/portfolio1.jpg"
-										alt="Ноутбук з відкритим сайтом"
-										width="370"
-										height="294"
-									/>
+									<picture>
+										<!-- desktop screen -->
+										<source
+											media="(min-width: 1200px)"
+											srcset="
+												./images/portfolio/portfolio_lg-1.jpg    1x,
+												./images/portfolio/portfolio_lg-1@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- tablet screen -->
+										<source
+											media="(min-width: 768px)"
+											srcset="
+												./images/portfolio/portfolio_md-1.jpg    1x,
+												./images/portfolio/portfolio_md-1@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- mobile screen -->
+										<source
+											media="(max-width: 767px)"
+											srcset="
+												./images/portfolio/portfolio_sm-1.jpg    1x,
+												./images/portfolio/portfolio_sm-1@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<img
+											src="./images/portfolio/portfolio_sm-1.jpg"
+											alt="Ноутбук з відкритим сайтом"
+											width="450"
+											height="290"
+										/>
+									</picture>
 									<p class="card-set__description-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
 										Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -95,12 +123,41 @@
 						<li class="card-set__item card-set__item--shadow">
 							<a class="card-set__link" href="">
 								<div class="card-set__description">
-									<img
-										src="./images/portfolio/portfolio2.jpg"
-										alt="Баскетболісти"
-										width="370"
-										height="294"
-									/>
+									<picture>
+										<!-- desktop screen -->
+										<source
+											media="(min-width: 1200px)"
+											srcset="
+												./images/portfolio/portfolio_lg-2.jpg    1x,
+												./images/portfolio/portfolio_lg-2@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- tablet screen -->
+										<source
+											media="(min-width: 768px)"
+											srcset="
+												./images/portfolio/portfolio_md-2.jpg    1x,
+												./images/portfolio/portfolio_md-2@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- mobile screen -->
+										<source
+											media="(max-width: 767px)"
+											srcset="
+												./images/portfolio/portfolio_sm-2.jpg    1x,
+												./images/portfolio/portfolio_sm-2@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<img
+											src="./images/portfolio/portfolio_sm-2.jpg"
+											alt="Баскетболісти"
+											width="450"
+											height="290"
+										/>
+									</picture>
 									<p class="card-set__description-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
 										Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -116,12 +173,41 @@
 						<li class="card-set__item card-set__item--shadow">
 							<a class="card-set__link" href="">
 								<div class="card-set__description">
-									<img
-										src="./images/portfolio/portfolio3.jpg"
-										alt="Логотип ресторану, з рибою"
-										width="370"
-										height="294"
-									/>
+									<picture>
+										<!-- desktop screen -->
+										<source
+											media="(min-width: 1200px)"
+											srcset="
+												./images/portfolio/portfolio_lg-3.jpg    1x,
+												./images/portfolio/portfolio_lg-3@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- tablet screen -->
+										<source
+											media="(min-width: 768px)"
+											srcset="
+												./images/portfolio/portfolio_md-3.jpg    1x,
+												./images/portfolio/portfolio_md-3@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- mobile screen -->
+										<source
+											media="(max-width: 767px)"
+											srcset="
+												./images/portfolio/portfolio_sm-3.jpg    1x,
+												./images/portfolio/portfolio_sm-3@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<img
+											src="./images/portfolio/portfolio_sm-3.jpg"
+											alt="Логотип ресторану, з рибою"
+											width="450"
+											height="290"
+										/>
+									</picture>
 									<p class="card-set__description-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
 										Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -137,12 +223,41 @@
 						<li class="card-set__item card-set__item--shadow">
 							<a class="card-set__link" href="">
 								<div class="card-set__description">
-									<img
-										src="./images/portfolio/portfolio4.jpg"
-										alt="Навушники"
-										width="370"
-										height="294"
-									/>
+									<picture>
+										<!-- desktop screen -->
+										<source
+											media="(min-width: 1200px)"
+											srcset="
+												./images/portfolio/portfolio_lg-4.jpg    1x,
+												./images/portfolio/portfolio_lg-4@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- tablet screen -->
+										<source
+											media="(min-width: 768px)"
+											srcset="
+												./images/portfolio/portfolio_md-4.jpg    1x,
+												./images/portfolio/portfolio_md-4@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- mobile screen -->
+										<source
+											media="(max-width: 767px)"
+											srcset="
+												./images/portfolio/portfolio_sm-4.jpg    1x,
+												./images/portfolio/portfolio_sm-4@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<img
+											src="./images/portfolio/portfolio_sm-4.jpg"
+											alt="Навушники"
+											width="450"
+											height="290"
+										/>
+									</picture>
 									<p class="card-set__description-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
 										Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -158,12 +273,41 @@
 						<li class="card-set__item card-set__item--shadow">
 							<a class="card-set__link" href="">
 								<div class="card-set__description">
-									<img
-										src="./images/portfolio/portfolio5.jpg"
-										alt="Дві коробки"
-										width="370"
-										height="294"
-									/>
+									<picture>
+										<!-- desktop screen -->
+										<source
+											media="(min-width: 1200px)"
+											srcset="
+												./images/portfolio/portfolio_lg-5.jpg    1x,
+												./images/portfolio/portfolio_lg-5@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- tablet screen -->
+										<source
+											media="(min-width: 768px)"
+											srcset="
+												./images/portfolio/portfolio_md-5.jpg    1x,
+												./images/portfolio/portfolio_md-5@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- mobile screen -->
+										<source
+											media="(max-width: 767px)"
+											srcset="
+												./images/portfolio/portfolio_sm-5.jpg    1x,
+												./images/portfolio/portfolio_sm-5@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<img
+											src="./images/portfolio/portfolio_sm-5.jpg"
+											alt="Дві коробки"
+											width="450"
+											height="290"
+										/>
+									</picture>
 									<p class="card-set__description-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
 										Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -179,12 +323,41 @@
 						<li class="card-set__item card-set__item--shadow">
 							<a class="card-set__link" href="">
 								<div class="card-set__description">
-									<img
-										src="./images/portfolio/portfolio6.jpg"
-										alt="Монітор"
-										width="370"
-										height="294"
-									/>
+									<picture>
+										<!-- desktop screen -->
+										<source
+											media="(min-width: 1200px)"
+											srcset="
+												./images/portfolio/portfolio_lg-6.jpg    1x,
+												./images/portfolio/portfolio_lg-6@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- tablet screen -->
+										<source
+											media="(min-width: 768px)"
+											srcset="
+												./images/portfolio/portfolio_md-6.jpg    1x,
+												./images/portfolio/portfolio_md-6@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- mobile screen -->
+										<source
+											media="(max-width: 767px)"
+											srcset="
+												./images/portfolio/portfolio_sm-6.jpg    1x,
+												./images/portfolio/portfolio_sm-6@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<img
+											src="./images/portfolio/portfolio_sm-6.jpg"
+											alt="Монітор"
+											width="450"
+											height="290"
+										/>
+									</picture>
 									<p class="card-set__description-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
 										Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -200,12 +373,41 @@
 						<li class="card-set__item card-set__item--shadow">
 							<a class="card-set__link" href="">
 								<div class="card-set__description">
-									<img
-										src="./images/portfolio/portfolio7.jpg"
-										alt="Відкрита книга"
-										width="370"
-										height="294"
-									/>
+									<picture>
+										<!-- desktop screen -->
+										<source
+											media="(min-width: 1200px)"
+											srcset="
+												./images/portfolio/portfolio_lg-7.jpg    1x,
+												./images/portfolio/portfolio_lg-7@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- tablet screen -->
+										<source
+											media="(min-width: 768px)"
+											srcset="
+												./images/portfolio/portfolio_md-7.jpg    1x,
+												./images/portfolio/portfolio_md-7@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- mobile screen -->
+										<source
+											media="(max-width: 767px)"
+											srcset="
+												./images/portfolio/portfolio_sm-7.jpg    1x,
+												./images/portfolio/portfolio_sm-7@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<img
+											src="./images/portfolio/portfolio_sm-7.jpg"
+											alt="Відкрита книга"
+											width="450"
+											height="290"
+										/>
+									</picture>
 									<p class="card-set__description-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
 										Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -221,7 +423,41 @@
 						<li class="card-set__item card-set__item--shadow">
 							<a class="card-set__link" href="">
 								<div class="card-set__description">
-									<img src="./images/portfolio/portfolio8.jpg" alt="Бірка" width="370" height="294" />
+									<picture>
+										<!-- desktop screen -->
+										<source
+											media="(min-width: 1200px)"
+											srcset="
+												./images/portfolio/portfolio_lg-8.jpg    1x,
+												./images/portfolio/portfolio_lg-8@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- tablet screen -->
+										<source
+											media="(min-width: 768px)"
+											srcset="
+												./images/portfolio/portfolio_md-8.jpg    1x,
+												./images/portfolio/portfolio_md-8@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- mobile screen -->
+										<source
+											media="(max-width: 767px)"
+											srcset="
+												./images/portfolio/portfolio_sm-8.jpg    1x,
+												./images/portfolio/portfolio_sm-8@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<img
+											src="./images/portfolio/portfolio_sm-8.jpg"
+											alt="Бірка"
+											width="450"
+											height="290"
+										/>
+									</picture>
 									<p class="card-set__description-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
 										Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -237,12 +473,41 @@
 						<li class="card-set__item card-set__item--shadow">
 							<a class="card-set__link" href="">
 								<div class="card-set__description">
-									<img
-										src="./images/portfolio/portfolio9.jpg"
-										alt="Ноутбук"
-										width="370"
-										height="294"
-									/>
+									<picture>
+										<!-- desktop screen -->
+										<source
+											media="(min-width: 1200px)"
+											srcset="
+												./images/portfolio/portfolio_lg-9.jpg    1x,
+												./images/portfolio/portfolio_lg-9@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- tablet screen -->
+										<source
+											media="(min-width: 768px)"
+											srcset="
+												./images/portfolio/portfolio_md-9.jpg    1x,
+												./images/portfolio/portfolio_md-9@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<!-- mobile screen -->
+										<source
+											media="(max-width: 767px)"
+											srcset="
+												./images/portfolio/portfolio_sm-9.jpg    1x,
+												./images/portfolio/portfolio_sm-9@2x.jpg 2x
+											"
+											type="image/jpg"
+										/>
+										<img
+											src="./images/portfolio/portfolio_sm-9.jpg"
+											alt="Ноутбук"
+											width="450"
+											height="290"
+										/>
+									</picture>
 									<p class="card-set__description-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
 										Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
