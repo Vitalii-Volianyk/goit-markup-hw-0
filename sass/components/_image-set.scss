@@ -8,13 +8,13 @@
 .image-set__item {
 	margin: 15px;
 	position: relative;
-	@media (max-width:767px) {
+	@media screen and (max-width:767px) {
 			@include col-width(2);
 	}
-	@media (min-width:768px) {
+	@media screen and (min-width:768px) {
 		@include col-width(3);
 	}
-	@media (min-width:1200px) {
+	@media screen and (min-width:1200px) {
 		@include col-width(6);
 	}
 }
@@ -41,7 +41,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	@media (min-width:1200px){
+	@media screen and (min-width:1200px){
 		width: 170px;
 	}
 	height: 92px;
@@ -57,7 +57,7 @@
 	@include col-width(3);
 }
 .section--desktop{
-	@media (max-width:1199px) {
+	@media screen and (max-width:1199px) {
 		display: none;
 	}
 }

@@ -7,11 +7,11 @@
 	color: $accent-color;
 	letter-spacing: calc(26px * 0.03);
 	display: inline-block;
-	@media (max-width:480px) {
+	@media screen and (max-width:480px) {
 		height: 100%;
 		@include flex(center);
 	}
-	@media (min-width:1200px){
+	@media screen and (min-width:1200px){
 		padding: 24px 0;
 		font-size: 26px;
 		line-height: calc(30.52/26);

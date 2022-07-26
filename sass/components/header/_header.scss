@@ -4,7 +4,7 @@
 	letter-spacing: calc(14px * 0.02);
 	border-bottom: 1px solid #ececec;
 	--contact-color:$contact-color;
-	@media (max-width:767px) {
+	@media screen and (max-width:767px) {
 		height:60px;
 		&__container{
 			height: 100%;

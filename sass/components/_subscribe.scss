@@ -2,7 +2,7 @@
 	margin-top: 14px;
 	@include flex(0, center);
 	flex-wrap: wrap;
-	@media (min-width:1200px) {
+	@media screen and (min-width:1200px) {
 		justify-content: space-between;
 		width: 570px;
 	}
@@ -18,11 +18,11 @@
 	color: $footer-link;
 	width: 100%;
 	margin-bottom: 20px;
-	@media (min-width:768px) {
+	@media screen and (min-width:768px) {
 		width: 450px;
 		
 	}
-	@media (min-width:1200px) {
+	@media screen and (min-width:1200px) {
 		width: 358px;
 		margin-bottom: 0;
 	}

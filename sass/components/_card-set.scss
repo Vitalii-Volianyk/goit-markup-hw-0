@@ -1,7 +1,7 @@
 .card-set{
 	@extend %list;
 	margin: -15px;
-    @media (min-width:768px){
+    @media screen and (min-width:768px){
         @include flex();
         flex-wrap: wrap;
     }
@@ -9,10 +9,10 @@
 }
 .card-set__item{
 	margin: 15px;
-    @media (min-width:768px) {
+    @media screen and (min-width:768px) {
         @include col-width(2);
     }
-    @media (min-width:1200px) {
+    @media screen and (min-width:1200px) {
         @include col-width(4);
     }
 }
@@ -24,10 +24,10 @@
     }
 }
 .card-set__item--shadow{
-    @media (min-width:768px) {
+    @media screen and (min-width:768px) {
         @include col-width(2);
     }
-    @media (min-width:1200px) {
+    @media screen and (min-width:1200px) {
         @include col-width(3);
     }
 }
@@ -51,11 +51,11 @@
 .card-set__team-about{
 	padding: 24px 0;
 	text-align: center;
-    @media (min-width:768px) {
+    @media screen and (min-width:768px) {
         padding: 30px 0;
     }
 
-    @media (min-width:1200px) {
+    @media screen and (min-width:1200px) {
         padding: 30px 0;
     }
 }

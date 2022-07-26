@@ -2,25 +2,25 @@
 	@include flex(center, space-between);
 }
 .footer__container{
-	@media (min-width:768px) {
+	@media screen and (min-width:768px) {
 		@include flex();
 		flex-wrap: wrap;
 	}
-	@media (min-width:1200px){
+	@media screen and (min-width:1200px){
 		@include flex(center,space-between);
 	}
 }
 .container{
 	margin: 0 auto;
 	padding: 0 15px;
-	@media (max-width:767px) {
+	@media screen and (max-width:767px) {
 		min-width: 320px;
 		max-width: 480px;
 	}
-	@media (min-width:768px) {
+	@media screen and (min-width:768px) {
 		width: 768px;
 	}
-	@media (min-width:1200px) {
+	@media screen and (min-width:1200px) {
 		width: 1200px;
 	}
 }

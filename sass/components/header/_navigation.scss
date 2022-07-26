@@ -9,7 +9,7 @@
 	&:focus {
 		color: $accent-color;
 	}
-	@media (max-width:767px){
+	@media screen and (max-width:767px){
 		font-size: 40px;
 		padding-top: 0;
 		padding-bottom: 16px;
@@ -18,13 +18,13 @@
 
 .navigation {
 	
-	@media (max-width:767px) {
+	@media screen and (max-width:767px) {
 		height: calc(100% - 230px);
 	}
-	@media (min-width:768px) {
+	@media screen and (min-width:768px) {
 		margin-left: 88px;
 	}
-	@media (min-width:1200px) {
+	@media screen and (min-width:1200px) {
 		margin-left: 93px;
 	}
 }
@@ -32,7 +32,7 @@
 .navigation__list {
 	@extend %list;
 	margin: 0 -25px;
-	@media (min-width:768px){
+	@media screen and (min-width:768px){
 		@include flex(center);
 	}
 }
@@ -60,7 +60,7 @@
 	
 }
 .menu{
-	@media (max-width:767px){
+	@media screen and (max-width:767px){
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -76,7 +76,7 @@
 		}
 		
 	}
-	@media (min-width:768px){
+	@media screen and (min-width:768px){
 		@include flex(center, space-between);
 		width: 100%;
 	}
@@ -104,7 +104,7 @@
 	&.is-open .icon-cross {
 		display: block;
 	}
-	@media (min-width:768px) {
+	@media screen and (min-width:768px) {
 		display: none;
 	}
 	&:hover,

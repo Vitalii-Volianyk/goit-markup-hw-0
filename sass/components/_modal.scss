@@ -11,7 +11,7 @@
 	height: 100%;
 	background-color: $dark-bg;
 	transition: opacity 250ms $time-func;
-	@media (max-width:767px) {
+	@media screen and (max-width:767px) {
 		padding: 15px;
 	}
 }
@@ -25,7 +25,7 @@
 	transform: scale(1);
 	transition: transform 250ms $time-func;
 	padding: 40px;
-	@media (max-width:1199px) {
+	@media screen and (max-width:1199px) {
 		min-width: 320px;
 		max-width: 450px;
 	}
@@ -53,7 +53,7 @@
 	text-align: center;
 	margin: 0;
 	margin-bottom: 12px;
-	@media (max-width:767px) {
+	@media screen and (max-width:767px) {
 		font-size: 20px;
 		line-height: calc(30/20);
 	}
@@ -126,7 +126,7 @@
 	letter-spacing: 0.03em;
 	line-height: calc(24/14);
 	cursor: pointer;
-	@media (max-width:767px) {
+	@media screen and (max-width:767px) {
 		font-size: 12px;
 		line-height: calc(14.06/12);
 	}
