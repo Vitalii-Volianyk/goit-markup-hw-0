@@ -622,8 +622,12 @@ li:not(:last-child) > .social-links__link {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 570px;
+}
+@media (min-width: 1200px) {
+  .subscribe {
+    justify-content: space-between;
+    width: 570px;
+  }
 }
 
 .subscribe__input {
