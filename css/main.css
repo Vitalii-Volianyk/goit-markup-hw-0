@@ -1051,7 +1051,7 @@ li:not(:last-child) > .social-links__link {
     max-width: 362px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .filters {
     margin-bottom: 34px;
   }
