@@ -2,8 +2,11 @@
 	margin-top: 14px;
 	@include flex(0, center);
 	flex-wrap: wrap;
-	justify-content: space-between;
-	width: 570px;
+	@media (min-width:1200px) {
+		justify-content: space-between;
+		width: 570px;
+	}
+	
 }
 
 .subscribe__input {
