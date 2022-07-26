@@ -18,7 +18,9 @@
 		color: $accent-color;
 	}
 		@media (max-width:767px) {
-			font-size: 24px;
+			.header &{
+				font-size: 24px;
+			}
 			.header .contacts__item:nth-child(2) & {
 					font-size: 34px;
 					line-height: calc(39.8 / 34);
