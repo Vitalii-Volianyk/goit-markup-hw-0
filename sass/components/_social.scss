@@ -27,8 +27,8 @@
 .social-links{
 	@extend %list;
 	@include flex();
-	font-size: 22px;
-	line-height: calc(18 / 22);
+	font-size: 18px;
+	line-height: calc(22 / 18);
 	color: $accent-color;
 	margin: 0 -10px;
 	@media (min-width:768px) {
