@@ -2,8 +2,12 @@
 	@include flex(center, space-between);
 }
 .footer__container{
+	@media (min-width:768px) {
+		@include flex();
+		flex-wrap: wrap;
+	}
 	@media (min-width:1200px){
-		@include flex(center);
+		@include flex(center,space-between);
 	}
 }
 .container{
@@ -13,7 +17,7 @@
 		min-width: 320px;
 		max-width: 480px;
 	}
-	@media (max-width:1199px) {
+	@media (min-width:768px) {
 		width: 768px;
 	}
 	@media (min-width:1200px) {

@@ -53,3 +53,11 @@
 		outline: none;
 	}
 }
+.image-set__item--col-3{
+	@include col-width(3);
+}
+.section--desktop{
+	@media (max-width:1199px) {
+		display: none;
+	}
+}

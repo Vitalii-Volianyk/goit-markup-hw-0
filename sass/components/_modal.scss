@@ -11,18 +11,24 @@
 	height: 100%;
 	background-color: $dark-bg;
 	transition: opacity 250ms $time-func;
+	@media (max-width:767px) {
+		padding: 15px;
+	}
 }
 .modal__content{
 	margin: auto;
 	position: relative;
 	width: 528px;
-	height: 581px;
 	background-color: $light-font;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 	transform: scale(1);
 	transition: transform 250ms $time-func;
 	padding: 40px;
+	@media (max-width:1199px) {
+		min-width: 320px;
+		max-width: 450px;
+	}
 }
 .modal__close{
 	position: absolute;
@@ -47,6 +53,10 @@
 	text-align: center;
 	margin: 0;
 	margin-bottom: 12px;
+	@media (max-width:767px) {
+		font-size: 20px;
+		line-height: calc(30/20);
+	}
 }
 .modal__filed{
 	position: relative;
@@ -116,6 +126,10 @@
 	letter-spacing: 0.03em;
 	line-height: calc(24/14);
 	cursor: pointer;
+	@media (max-width:767px) {
+		font-size: 12px;
+		line-height: calc(14.06/12);
+	}
 }
 .modal__link{
 	color: $accent-color;

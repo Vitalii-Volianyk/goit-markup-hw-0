@@ -29,7 +29,7 @@ h1,h2,h3 {
 
 img {
 	display: block;
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 }
 svg {
@@ -74,7 +74,11 @@ svg {
 	}
 }
 .section{
-	padding: 94px 0;
+	padding: 60px 0;
+	@media (min-width:1200px) {
+		padding: 94px 0;
+	}
+
 }
 .section--zero-padding-bot{
 	padding-bottom: 0;

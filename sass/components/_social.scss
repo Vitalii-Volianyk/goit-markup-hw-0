@@ -24,3 +24,20 @@
 		outline: none;
 	}
 }
+.social-links{
+	@extend %list;
+	@include flex();
+	font-size: 22px;
+	line-height: calc(18 / 22);
+	color: $accent-color;
+	margin: 0 -10px;
+	@media (min-width:768px) {
+		display: none;
+	}
+}
+.social-links__link{
+	padding: 0 10px;
+}
+li:not(:last-child)>.social-links__link {
+	border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
