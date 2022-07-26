@@ -310,7 +310,7 @@ svg {
   color: #2196F3;
 }
 @media (max-width: 767px) {
-  .contacts__link {
+  .header .contacts__link {
     font-size: 24px;
   }
   .header .contacts__item:nth-child(2) .contacts__link {
@@ -598,8 +598,8 @@ svg {
 
 .social-links {
   display: flex;
-  font-size: 22px;
-  line-height: 0.8181818182;
+  font-size: 18px;
+  line-height: 1.2222222222;
   color: #2196F3;
   margin: 0 -10px;
 }
