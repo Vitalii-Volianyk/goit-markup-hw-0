@@ -192,7 +192,7 @@ svg {
   color: inherit;
 }
 
-.modal__button, .hero__button, .subscribe__button {
+.hero__button, .subscribe__button {
   background-color: #2196F3;
   font-weight: 700;
   letter-spacing: 0.96px;
@@ -204,7 +204,7 @@ svg {
   border: none;
   cursor: pointer;
 }
-.modal__button:hover, .hero__button:hover, .subscribe__button:hover, .modal__button:active, .hero__button:active, .subscribe__button:active, .modal__button:focus, .hero__button:focus, .subscribe__button:focus {
+.hero__button:hover, .subscribe__button:hover, .hero__button:active, .subscribe__button:active, .hero__button:focus, .subscribe__button:focus {
   background-color: #188CE8;
   outline: none;
 }
@@ -873,171 +873,6 @@ li:not(:last-child) > .social-links__link {
   line-height: 1.875;
   color: #757575;
   margin: 4px 0 0;
-}
-
-.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
-.modal {
-  position: fixed;
-  display: flex;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-@media screen and (max-width: 767px) {
-  .modal {
-    padding: 15px;
-  }
-}
-
-.modal__content {
-  margin: auto;
-  position: relative;
-  width: 528px;
-  background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  transform: scale(1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 40px;
-}
-@media screen and (max-width: 1199px) {
-  .modal__content {
-    min-width: 320px;
-    max-width: 450px;
-  }
-}
-
-.modal__close {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  background-color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal__close:hover {
-  color: #2196F3;
-}
-
-.modal__title {
-  text-align: center;
-  margin: 0;
-  margin-bottom: 12px;
-}
-@media screen and (max-width: 767px) {
-  .modal__title {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-}
-
-.modal__filed {
-  position: relative;
-  width: 100%;
-  display: inline-block;
-  margin-bottom: 10px;
-}
-
-.modal__label {
-  font-size: 12px;
-  line-height: 1.1716666667;
-  color: #757575;
-  letter-spacing: 0.01em;
-  margin-bottom: 4px;
-}
-
-.modal__input {
-  width: 100%;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  padding: 11px 12px;
-  padding-left: 42px;
-  color: #212121;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal__input:focus {
-  outline: 1px solid #188CE8;
-  border: 1px solid #2196F3;
-}
-
-.modal__icon {
-  position: absolute;
-  top: 34px;
-  left: 14px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal__input:focus + .modal__icon {
-  color: #2196F3;
-}
-
-.modal__input--comment {
-  height: 120px;
-  resize: none;
-  padding: 12px 16px;
-}
-
-.modal__filed--checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-
-.modal__icon-checkbox {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background-color: #ffffff;
-  border: 2px solid #212121;
-  background-image: url(../images/check.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-right: 7px;
-}
-.modal__checkbox:checked + .modal__icon-checkbox {
-  background-color: #2196F3;
-  border: 2px solid #2196F3;
-}
-
-.modal__checkbox-label {
-  color: #757575;
-  letter-spacing: 0.03em;
-  line-height: 1.7142857143;
-  cursor: pointer;
-}
-@media screen and (max-width: 767px) {
-  .modal__checkbox-label {
-    font-size: 12px;
-    line-height: 1.1716666667;
-  }
-}
-
-.modal__link {
-  color: #2196F3;
-}
-
-.modal__button {
-  color: #ffffff;
-  margin: 0 auto;
-  display: block;
 }
 
 .filters {
